@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>TicTacToe</h1>
+    </nav>
+    <div class="enterNames">
+        <input type="text" name="name" id="name-first" placeholder="Enter first player Name" required autocomplete="name"/>
+        <input type="text" name="name" id="name-second" placeholder="Enter second player Name" required autocomplete="name"/>
+        <button id="playGame">Play Game</button>
+    </div>
+    <div class="playArea">
+
+        <div class="box1">
+            <div class="board">
+                <div class="box bl-0 bt-0"></div>
+                <div class="box bt-0"></div>
+                <div class="box bt-0 br-0"></div>
+                <div class="box bl-0"></div>
+                <div class="box"></div>
+                <div class="box br-0"></div>
+                <div class="box bb-0 bl-0"></div>
+                <div class="box bb-0 "></div>
+                <div class="box bb-0 br-0"></div>
+            </div>
+        </div>
+
+        <div class="container cont1">
+            <h2 class="turn"></h2>
+            <button class="resetBtn">Reset</button>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
